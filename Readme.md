@@ -83,6 +83,7 @@ Cheatsheet:
 
 
 Alias:
+
 	* O que é:
 		Alias é um "nickname" ou apelido para um comando. Por exemplo trocar o comando
 		"status" pelo apelido "s". É o mesmo comando mas com outro nome.
