@@ -3,20 +3,20 @@ Cheatsheet:
 	1) git init:
 		Inicia o repositório selecionado como um repositório git
 	
-	2) git clone /path/to/repository name:
-		Clona um repositório com o nome 'name'
+	2) git clone <path> <name>:
+		Clona o repositório <path> com o nome <name>
 
 	3) git add <filename>:
-		Adiciona o arquivo filename para o estado "stage"
+		Adiciona o arquivo <filename> para o estado "stage"
 
-	4) git commit -m "Commit message":
-		Aceita os arquivos no estado "staging"
+	4) git commit -am "<message>":
+		Aceita todos os arquivos no estado "staging" com a mensagem <message>
 
-	5) git push origin master:
-		Manda as mudanças de "master" para o repositório remoto "origin"
+	5) git push <origin> <branch>:
+		Envia as mudanças de <branch> para o repositório remoto <origin>
 
 	6) git status:
-		Retorna o estado dos arquivos (untracked, unmodified, modified, staged)
+		Retorna o estado dos arquivos no branch atual (untracked, unmodified, modified, staged)
 
 	7) git checkout -b <branch>:
 		Cria e seleciona um novo branch com o nome <branch>
@@ -57,7 +57,7 @@ Cheatsheet:
 	19) git checkout <filename>:
 		Volta o arquivo <filename> para a ultima versão commitada
 
-	20) git reset HEAD <filename>
+	20) git reset HEAD <filename>:
 		Retira o arquivo <filename> do estado "staged"
 
 	21) git reset --soft <commithash>:
