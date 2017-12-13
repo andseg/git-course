@@ -1,4 +1,5 @@
 Cheatsheet:
+
 	1) git init:
 		Inicia o repositório selecionado como um repositório git
 	
