@@ -94,5 +94,5 @@ Alias:
 	* Exemplo:
 		git config --global alias.s status
 
-	* Meus Alias (comando: Alias):
+	* Meus alias (<comando>: <apelido>):
 		1) status: s
